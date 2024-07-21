@@ -23,3 +23,8 @@ Additionally, I employed one-hot encoding to convert string data types to numeri
 
 The fourth task involved identifying whether an email is spam or ham.  
 I used a Logistic Regression model for this classification task. To transform the text data into numerical data, I used the TfidfVectorizer library, which helped the machine better understand and predict the content of the emails.
+
+## 5) Task Five
+
+For the fifth task, I was required to predict how much of a product people will buy based on different features given in the dataset.  
+I used the XGBoost model for this purpose and evaluated the model's performance using the Root Mean Square Error (RMSE) as the evaluation criterion.
