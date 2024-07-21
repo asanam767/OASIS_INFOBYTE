@@ -18,3 +18,8 @@ I used various libraries to perform this analysis.
 For the third task, I was assigned to predict the selling price of cars based on various feature sets.  
 I used a Random Forest Regressor model to make these predictions and evaluated the model using the Root Mean Square Error (RMSE) as the evaluation criterion.  
 Additionally, I employed one-hot encoding to convert string data types to numerical data types for better model performance.
+
+## 4) Task Four
+
+The fourth task involved identifying whether an email is spam or ham.  
+I used a Logistic Regression model for this classification task. To transform the text data into numerical data, I used the TfidfVectorizer library, which helped the machine better understand and predict the content of the emails.
